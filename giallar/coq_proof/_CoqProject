@@ -1,0 +1,14 @@
+-R . Top
+#-arg -profile-ltac
+
+externals/QWIRE/Prelim.v
+externals/QWIRE/RealAux.v
+externals/QWIRE/Complex.v
+externals/QWIRE/Matrix.v
+externals/QWIRE/Quantum.v
+externals/QWIRE/Dirac.v
+externals/QWIRE/Proportional.v
+
+certiq.v
+soundness.v
+reduction.v

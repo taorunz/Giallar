@@ -1,0 +1,145 @@
+Giallar.egg-info/
+build/
+giallar/preprocessor/output_files/
+/dist/
+*.pyc
+.*.aux
+*.a
+*.cma
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.cmxs
+*.glob
+*.ml.d
+*.ml4.d
+*.mli.d
+*.mllib.d
+*.mlpack.d
+*.native
+*.o
+*.v.d
+*.vio
+*.vo
+.coq-native/
+.csdp.cache
+.lia.cache
+.nia.cache
+.nlia.cache
+.nra.cache
+csdp.cache
+lia.cache
+nia.cache
+nlia.cache
+nra.cache
+
+# Ignore auto-generated Makefiles
+CoqMakefile
+CoqMakefile.conf
+
+# Git ignore file for the Certikos repository
+#
+# NB: The patterns below correspond to files created by the build system.
+# Files that are created because of local circumstances should not appear
+# here. So for example the #*# and *~ files that relate to the specific
+# configuration of the specific editor you use are best handled by one of
+# the local ignore lists documented here:
+#
+#       https://help.github.com/articles/ignoring-files
+#
+# Please do not add the here.
+
+# Build system
+.depend
+.filelist
+filelist
+.filelist.*
+.timelog
+timelog
+*.time
+.cproject
+.project
+*.aux
+.coq-native
+
+# Various kinds of intermediate files
+*.v.d
+*.vo
+*.glob
+*.o
+*.parsed.c
+*.light.c
+*.compcert.c
+*.compcert
+_build
+ccertikos
+#certikos.s
+*#*#*
+.#*
+
+# AAC tactics
+aac_tactics/Makefile.coq
+aac_tactics/mlihtml
+aac_tactics/*.d
+aac_tactics/*.cmi
+aac_tactics/*.cmx
+aac_tactics/*.cmo
+aac_tactics/*.cmxs
+
+# Compcert
+compcert/Makefile.config
+compcert/_build
+compcert/driver/Configuration.ml
+compcert/extraction/*.ml
+compcert/extraction/*.mli
+compcert/extraction/STAMP
+compcert/tools/ndfun
+compcert/tools/ndfun.cmi
+compcert/tools/ndfun.cmx
+compcert/tools/ndfun.o
+compcert/backend/SelectDiv.v
+compcert/backend/SelectLong.v
+compcert/ia32/ConstpropOp.v
+compcert/ia32/SelectOp.v
+compcert/ccomp
+compcert/ccomp.prof
+compcert/ccomp.byte
+compcert/cchecklink
+compcert/cchecklink.byte
+compcert/clightgen
+compcert/clightgen.byte
+compcert/runtime/libcompcert.a
+compcert/doc/coq2html
+compcert/doc/coq2html.cmi
+compcert/doc/coq2html.cmx
+compcert/doc/coq2html.ml
+compcert/doc/coq2html.o
+compcert/doc/html
+compcert/test/*/*.s
+compcert/test/compression/arcode
+compcert/test/compression/lzss
+compcert/test/compression/lzw
+compcert/test/raytracer/render
+compcert/test/spass/spass
+compcert/test/STAMP
+
+# CompCertX
+compcertx/html
+
+# Liblayers
+liblayers/html
+
+# mCertiKOS
+mcertikos/extraction/*.ml*
+mcertikos/ccertikos
+mcertikos/certikos.s
+mcertikos/certikos.o
+mcertikos/script/timelog_t
+
+# Mac
+.DS_Store
+*~
+
+mcertikos/timelog
+.coqdeps.d
